@@ -38,6 +38,36 @@ O backend foi desenvolvido utilizando **Express**, responsável por receber requ
 
 ---
 
+## ▶️ Como rodar o projeto localmente
+
+```bash
+# Clonar o repositório
+git clone https://github.com/MuriloCamargo12/simple-crud.git
+
+# Entrar na pasta do projeto
+cd simple-crud
+
+# Entrar na pasta backend
+cd backend
+
+#Criar arquivo .env.local na raiz com:
+ACCESS_TOKEN_SECRET=SequênciaAleatóriaDeCaracteres
+
+# Instalar dependências
+npm install
+# Rodar o projeto
+npm run dev
+
+# Entrar na pasta frontend
+cd frontend
+
+# Instalar dependências
+npm install
+# Rodar o projeto
+npm start
+
+```
+
 ## Observação sobre o frontend
 
 O **frontend utilizado neste projeto foi fornecido pelo curso**, já contendo grande parte da lógica implementada, incluindo funcionalidades como login, logout e comunicação com a API.
